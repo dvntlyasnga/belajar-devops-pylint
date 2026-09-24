@@ -1,12 +1,17 @@
-import os, sys, math
-x = 10
-def Bad_Function_Name( A, B, C, D, E, F ):
- global x
- l = 1; O = 0
- if A == True:
-  if B == False:
-   if C == None:
-    try: print(eval("A + B")); res = E[0] + F + l + O
-    except: pass
-   else: return None
-Bad_Function_Name(True, False, None, 1, [2], 3)
+"""Contoh kode yang sudah diperbaiki untuk melewati Pylint."""
+
+
+def hitung_nilai(a, b, c, d, e, f):
+    """Menghitung hasil dari beberapa nilai."""
+    hasil = a + b + c + d + e + f
+    return hasil
+
+
+def main():
+    """Fungsi utama program."""
+    hasil = hitung_nilai(1, 2, 3, 4, 5, 6)
+    print(f"Hasil: {hasil}")
+
+
+if __name__ == "__main__":
+    main()
