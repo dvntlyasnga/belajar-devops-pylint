@@ -1,15 +1,14 @@
 """Contoh kode yang sudah diperbaiki untuk melewati Pylint."""
 
 
-def hitung_nilai(a, b, c, d, e, f):
-    """Menghitung hasil dari beberapa nilai."""
-    hasil = a + b + c + d + e + f
-    return hasil
+def hitung_nilai(a, b, c):
+    """Menghitung jumlah tiga nilai."""
+    return a + b + c
 
 
 def main():
     """Fungsi utama program."""
-    hasil = hitung_nilai(1, 2, 3, 4, 5, 6)
+    hasil = hitung_nilai(1, 2, 3)
     print(f"Hasil: {hasil}")
 
 
